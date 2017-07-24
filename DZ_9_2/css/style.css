@@ -1,0 +1,49 @@
+/*header {
+	height: 70px;
+}*/
+.logo {
+	background-color: grey;
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+}
+.item div {
+	background-color: grey;
+	text-align: center;
+	margin-top: 10px;
+	margin-right: 14px;
+	/*border-right: 1px solid white;*/
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	width: 13%;
+}
+.item div:last-child {
+	margin-right: 0;
+}
+.name {
+	float: left;
+}
+.link {
+	float: right;
+}
+.link li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 20px 36px;
+}
+.link li:last-child {
+	margin-right: 0;
+}
+.nav {
+	background-color: grey;
+	text-align: center;
+	height: 620px;
+	line-height: 620px;
+}
+.img {
+	background-color: grey;
+	text-align: center;
+	height: 140px;
+	line-height: 140px;
+}
