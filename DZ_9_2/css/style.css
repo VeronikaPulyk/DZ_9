@@ -11,12 +11,12 @@
 	background-color: grey;
 	text-align: center;
 	margin-top: 10px;
-	margin-right: 14px;
-	/*border-right: 1px solid white;*/
+	/*margin-right: 14px;*/
+	border-right: 1px solid white;
 	height: 40px;
 	line-height: 40px;
 	float: left;
-	width: 13%;
+	width: calc(100%/7);
 }
 .item div:last-child {
 	margin-right: 0;
@@ -30,8 +30,9 @@
 .link li {
 	list-style-type: none;
 	display: inline-block;
-	margin: 20px 36px;
+	margin: 20px 35px;
 }
+
 .link li:last-child {
 	margin-right: 0;
 }
